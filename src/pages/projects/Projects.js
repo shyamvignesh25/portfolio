@@ -9,8 +9,8 @@ import { Fade } from "react-reveal";
 import {
   greeting,
   projectsHeader,
-  publicationsHeader,
-  publications,
+  // publicationsHeader,
+  // publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
@@ -50,20 +50,86 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
+          <GithubRepoCard
+            repo={{
+              name: "Live Location Tracking App",
+              description: "Enabled real-time location sharing features.",
+              createdAt: "2024-01-10",
+              // url: "https://github.com/user/location-tracking-app",
+              languages: ["Flutter", "Dart"],
+            }}
+            theme={theme}
+          />
+
+          <GithubRepoCard
+            repo={{
+              name: "Jewellers App",
+              description:
+                "Managed customer records, financial schemes, and Razorpay integration.",
+              createdAt: "2024-02-15",
+              // url: "https://github.com/user/jewellers-app",
+              languages: ["Flutter", "Dart", "Firebase"],
+            }}
+            theme={theme}
+          />
+
+          <GithubRepoCard
+            repo={{
+              name: "Bharath Gas Booking App",
+              description: "Streamlined gas booking and management processes.",
+              createdAt: "2024-03-20",
+              // url: "https://github.com/user/gas-booking-app",
+              languages: ["Flutter", "Dart", "Node.js"],
+            }}
+            theme={theme}
+          />
+
+          <GithubRepoCard
+            repo={{
+              name: "Expense Tracker App",
+              description: "Helped users track their daily expenses.",
+              createdAt: "2024-04-05",
+              // url: "https://github.com/user/expense-tracker",
+              languages: ["Flutter", "Dart", "SQLite"],
+            }}
+            theme={theme}
+          />
+
+          <GithubRepoCard
+            repo={{
+              name: "Sales Management App",
+              description:
+                "Improved efficiency in sales tracking and operations.",
+              createdAt: "2024-05-30",
+              // url: "https://github.com/user/sales-management",
+              languages: ["Flutter", "Dart", "REST API"],
+            }}
+            theme={theme}
+          />
+
+          <GithubRepoCard
+            repo={{
+              name: "Fitness tracker app",
+              description:
+                "Developed athletic tracking app to improve practice schedules.",
+              createdAt: "2024-06-15",
+              // url: "https://github.com/user/bmi-calculator",
+              languages: ["Flutter", "Dart", "Firebase"],
+            }}
+            theme={theme}
+          />
         </div>
-        <Button
+
+        {/* <Button
           text={"More Projects"}
           className="project-button"
           href={greeting.githubProfile}
           newTab={true}
           theme={theme}
-        />
+        /> */}
 
         {/* Publications  */}
-        {publications.data.length > 0 ? (
+        {/* {publications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
               <div className="publications-heading-div">
@@ -84,13 +150,13 @@ class Projects extends Component {
               </div>
             </Fade>
           </div>
-        ) : null}
+        ) : null} */}
 
-        <div className="repo-cards-div-main">
+        {/* <div className="repo-cards-div-main">
           {publications.data.map((pub) => {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
-        </div>
+        </div> */}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
