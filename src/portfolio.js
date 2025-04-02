@@ -27,7 +27,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1XxzckCtPpHWqj8bhgz3iyBFv8Caxomk5/view?usp=drive_link",
   // portfolio_repository: "https://github.com/com/masterPortfolio",
-  githubProfile: "https://github.com/ShyamVingesh",
+  githubProfile: "https://github.com/shyamvignesh25",
 };
 
 const socialMediaLinks = [
@@ -42,7 +42,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ShyamVingesh",
+    link: "https://github.com/shyamvignesh25",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
