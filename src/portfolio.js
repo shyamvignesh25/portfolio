@@ -117,10 +117,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Creating application backend in Node, Express",
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter and solo android apps using Kotlin",
+        "⚡ Building cross-platform mobile applications using Flutter",
+        "⚡ Creating robust backend APIs using Node.js and Express.js",
+        "⚡ Developing native Android applications using Kotlin",
       ],
+
       softwareSkills: [
         {
           skillName: "Flutter",
@@ -129,20 +130,20 @@ const skills = {
             color: "#02569B",
           },
         },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
+        // {
+        //   skillName: "HTML5",
+        //   fontAwesomeClassname: "simple-icons:html5",
+        //   style: {
+        //     color: "#E34F26",
+        //   },
+        // },
+        // {
+        //   skillName: "CSS3",
+        //   fontAwesomeClassname: "fa-css3",
+        //   style: {
+        //     color: "#1572B6",
+        //   },
+        // },
         // {
         //   skillName: "Sass",
         //   fontAwesomeClassname: "simple-icons:sass",
@@ -158,13 +159,13 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
+        // {
+        //   skillName: "ReactJS",
+        //   fontAwesomeClassname: "simple-icons:react",
+        //   style: {
+        //     color: "#61DAFB",
+        //   },
+        // },
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
@@ -199,9 +200,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        // "⚡ Experience working on multiple cloud platforms",
+        "⚡ Firebase Integration: Proficient in integrating Firebase for Firestore,real-time database management, authentication, and cloud functions.",
+        "⚡ MongoDB: Experience working with MongoDB for scalable and efficient data storage and management.",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
@@ -233,13 +234,13 @@ const skills = {
             color: "#FFCA28",
           },
         },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
+        // {
+        //   skillName: "PostgreSQL",
+        //   fontAwesomeClassname: "simple-icons:postgresql",
+        //   style: {
+        //     color: "#336791",
+        //   },
+        // },
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -712,7 +713,7 @@ const contactPageData = {
 
   addressSection: {
     title: "Address",
-    subtitle: "Y.othakdai, Madurai, Tamil Nadu, India - 625107",
+    subtitle: "Y.othakadai, Madurai, Tamil Nadu, India - 625107",
     locality: "Madurai",
     country: "India",
     region: "Tamil Nadu",

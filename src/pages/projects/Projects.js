@@ -55,7 +55,8 @@ class Projects extends Component {
               name: "Live Location Tracking App",
               description: "Enabled real-time location sharing features.",
               createdAt: "2024-01-10",
-              // url: "https://github.com/user/location-tracking-app",
+              url:
+                "https://play.google.com/store/apps/details?id=com.pgs.arasan&pcampaignid=web_share",
               languages: ["Flutter", "Dart"],
             }}
             theme={theme}
@@ -67,7 +68,8 @@ class Projects extends Component {
               description:
                 "Managed customer records, financial schemes, and Razorpay integration.",
               createdAt: "2024-02-15",
-              // url: "https://github.com/user/jewellers-app",
+              url:
+                "https://play.google.com/store/apps/details?id=com.pgs.sm_jwelleries&pcampaignid=web_share",
               languages: ["Flutter", "Dart", "Firebase"],
             }}
             theme={theme}
@@ -78,7 +80,8 @@ class Projects extends Component {
               name: "Bharath Gas Booking App",
               description: "Streamlined gas booking and management processes.",
               createdAt: "2024-03-20",
-              // url: "https://github.com/user/gas-booking-app",
+              url:
+                "https://play.google.com/store/apps/details?id=com.pgs1.balaji_gas&pcampaignid=web_share",
               languages: ["Flutter", "Dart", "Node.js"],
             }}
             theme={theme}
